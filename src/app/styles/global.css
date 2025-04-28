@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "HarryPotterFont";
+    src: url("../../shared/assets/fonts/harryPotterFont.ttf") format("truetype");
+}
+
+@import "tailwindcss";
+
+@theme {
+    --font-harrypotter: HarryPotterFont, "sans-serif";
+}
