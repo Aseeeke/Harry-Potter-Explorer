@@ -11,6 +11,7 @@
     },
     "jsx": "react-jsx",
     "module": "esnext",
-    "target": "es2017"
+    "target": "es2017",
+    "types": ["vite/client", "node"]
   }
 }
